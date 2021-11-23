@@ -58,11 +58,11 @@ Kill the python script by pushing Ctrl+C in the console on the bottom right.  No
 
 We're not here to learn to fly... but we need to get our aircraft in the air before we can do much.  The Allegro is a fairly forgiving trainer aircraft so will *almost* fly itself.  To take off:
 
-1. Press 9 on the numeric keypad and hold for 5 seconds, to get the throttle all the way open.  (You might see a little knob move in the cockpit.)
+1. Press "Page Up" and hold for 5 seconds, to get the throttle all the way open.  (You might see a little knob move in the cockpit.)
 2. Press } three times to turn on the ignition.
 2. Press S and hold for a second to start the engine.
 2. Press Shift+B to take the brake off.
-3. Just let the aircraft accelerate and after about five seconds, hit the down arrow twice, and you should take to the air.  (If you really want to fly it, use 0 and Enter on the numeric keypad to steer using the rudder.)
+3. Just let the aircraft accelerate and after about five seconds, hit the down arrow twice, and you should take to the air.  (If you really want to fly it, use 0 and Enter to steer using the rudder.)
 4. When you get into the air, use the left and right arrow keys to bank, but use only small taps and then back to centre.  Try and keep yourself about level, but don't worry if you climb in a spiral - we just need to gain height.
 
 > Need a breather?  Press P at any time to pause the simulator.
