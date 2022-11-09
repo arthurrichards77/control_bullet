@@ -2,6 +2,7 @@ import socket
 import time
 import logging
 from warnings import warn
+import os
 
 fgclient_logger = logging.getLogger('fgclient')
 
@@ -22,6 +23,8 @@ class FgClient:
     self._logger = logging.getLogger('fgclient')
     self._logger.setLevel(logging.INFO)
     self._logger.handlers = [] # turn off hanging files
+    if not os.path.isdir('logs'):
+      os.mkdir('logs')
     filehandler = logging.FileHandler('logs/fglog'+time.strftime('%y%m%d%H%M%S')+'.csv')
     self._logger.addHandler(filehandler)
 
