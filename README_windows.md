@@ -19,6 +19,8 @@ Download via (https://git-scm.com/download/win) and install following the instru
 
 ### Anaconda
 
+| Anaconda is convenient but optional.  Any combination of a terminal, an editor and a Python interpreter will work.  I now use VS Code for this tutorial.
+
 Download via (https://www.anaconda.com/products/individual) and make sure you include the Spyder IDE (I think it's included by default).
 
 ### FlightGear
@@ -55,6 +57,8 @@ Kill the python script by pushing Ctrl+C in the console on the bottom right.  No
 ![Test data plot](https://github.com/arthurrichards77/control_tutorial/raw/master/.screenshots/test_figure.png)
 
 ### First Flight
+
+| You can skip all this and just run `takeoff.py`.  It's not great automation as it tends to drift off the runway, but it should get you in the air.
 
 We're not here to learn to fly... but we need to get our aircraft in the air before we can do much.  The Allegro is a fairly forgiving trainer aircraft so will *almost* fly itself.  To take off:
 
