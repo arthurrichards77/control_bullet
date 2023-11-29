@@ -7,7 +7,7 @@ c = FgClient()
 
 # check zero elevator
 el = c.get_elevator()
-if el != 0.0:
+if el > 0.01 or el < -0.01:
     raise ValueError('Elevator not central: ', el)
 
 c.ap_pitch_off()
